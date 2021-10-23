@@ -1,0 +1,48 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table{
+    border-collapse: collapse;
+    font-size: 10pt;
+    border: white;
+    
+}
+td{
+    padding: 8px;
+    height: 25px;
+}
+th{
+    background-color: blue;
+    color: white;
+    height: 30px;
+}
+table, th, td{
+    padding: 8px 20px;
+    text-align: left;
+}
+table tr:nth-child(even) {
+    background: rgb(181, 204, 247);
+}
+div{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin-right: 0;
+}
+h1 {
+    height: 80px;
+}
+img{
+    height: 300px;
+    margin-left: 320px;
+}
+section{
+    margin-top: -350px;
+}
+iframe{
+    margin-left: 350px;
+    margin-bottom: 50px;
+}
+video{
+    margin-left: 60px;
+}
