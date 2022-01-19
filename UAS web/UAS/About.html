@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tugas UAS</title>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale">
+    <link rel="stylesheet" href="Css_About.css">
+</head>
+
+<body>
+    <header>
+        <div class="judul">
+            <h1 align="center">ERABOOKpedia</h1>
+        </div>
+        <div class="jam_digital">
+            <div class="kotak">
+                <p id="jam"></p>
+            </div>
+            <div class="kotak">
+                <p id="menit"></p>
+            </div>
+            <div class="kotak">
+                <p id="detik"></p>
+            </div>
+        </div>
+        <script type="text/javascript">
+            window.setTimeout("waktu()", 1000);
+            function waktu() {
+                var waktu = new Date();
+                setTimeout("waktu()", 1000);
+                document.getElementById("jam").innerHTML = waktu.getHours();
+                document.getElementById("menit").innerHTML = waktu.getMinutes();
+                document.getElementById("detik").innerHTML = waktu.getSeconds();
+            }
+        </script>
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a href="#">About Us</a>
+            <a href="Product.html">Product</a>
+            <a href="Buku Tamu.php">Buku Tamu</a>
+        </div>
+    </header>
+    <main class="beranda">
+        <section>
+            <div class="row">
+                <div class="column">
+                    <h2>About ERABOOKpedia</h2>
+                    <p>ERABOOKpedia adalah situs buku dan komik online terlengkap dan sangat terpercaya. Kami
+                        menyediakan berbagai macam buku dan komik yang sangat menarik untuk dibaca. Buku dan komik yang
+                        kami sediakan ada yang gratis dan ada juga yang berbayar, semua buku dan komik yang anda cari
+                        ada di sini. ERABOOKpedia juga telah dipercaya banyak orang dan merupakan situs membaca buku dan
+                        komik secara legal, sehingga anda tidak perlu khawatir jika ada buku palsu/tiruan di sini. Kami
+                        juga telah bekerjasama dengan berbagai macam toko buku di Indonesia yang bisa melengkapi koleksi
+                        buku anda. </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <footer class="copyright">
+        <p align="center"><b>Copyright ©2022 Wahyu Hidayat</b></p>
+    </footer>
+</body>

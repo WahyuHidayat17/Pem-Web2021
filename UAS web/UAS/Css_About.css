@@ -1,0 +1,51 @@
+{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    background-color: #2868f3b9;
+    text-align: center;
+}
+.jam_digital{
+    overflow: hidden;
+    width: 180px;
+    margin: 20px auto;
+    border: 5px solid black;
+    background-color: rgb(18, 14, 255);
+}
+.kotak{
+    float: left;
+    width: 60px;
+    height: 40px;
+}
+.jam_digital p{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 4px;
+}
+.topnav{
+    overflow: hidden;
+    background-color: rgb(18, 14, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+.column{
+    color: black;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tugas UAS</title>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale">
+    <link rel="stylesheet" href="Css_Beranda.css">
+</head>
+
+<body>
+    <header>
+        <div class="judul">
+            <h1 align="center">ERABOOKpedia</h1>
+        </div>
+        <div class="jam_digital">
+            <div class="kotak">
+                <p id="jam"></p>
+            </div>
+            <div class="kotak">
+                <p id="menit"></p>
+            </div>
+            <div class="kotak">
+                <p id="detik"></p>
+            </div>
+        </div>
+        <script type="text/javascript">
+            window.setTimeout("waktu()", 1000);
+            function waktu() {
+                var waktu = new Date();
+                setTimeout("waktu()", 1000);
+                document.getElementById("jam").innerHTML = waktu.getHours();
+                document.getElementById("menit").innerHTML = waktu.getMinutes();
+                document.getElementById("detik").innerHTML = waktu.getSeconds();
+            }
+        </script>
+        <div class="topnav">
+            <a href="#">Home</a>
+            <a href="About.html">About Us</a>
+            <a href="Product.html">Product</a>
+            <a href="Buku Tamu.php">Buku Tamu</a>
+        </div>
+    </header>
+    <main class="beranda">
+        <section>
+            <div class="row">
+                <div class="column">
+                    <h2>Bermacam-macam buku dan komik</h2>
+                    <h2>pilihan terbaik ada di sini</h2>
+                    <h2>Terlengkap dan Terpercaya</h2>
+                </div>
+            </div>
+        </section>
+    </main>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <footer class="copyright">
+        <p align="center"><b>Copyright ©2022 Wahyu Hidayat</b></p>
+    </footer>
+</body>
+
+</html>
